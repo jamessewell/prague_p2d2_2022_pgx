@@ -1,6 +1,8 @@
 # Prague P2D2 2022 Conference Talk Demo Repo
 
-This repo hosts the demo code and slides from my talk at the Prague Postgres Developer Day 2022.
+This repo hosts the demo code and slides from my talk at the Prague Postgres Developer Day 2022 (https://p2d2.cz/rocnik-2022/program).
+
+I had a great time speaking at this conference, it was my first in person conference talk, my first PostgreSQL community talk, and my first live-demo. Thankfully the demo gods shone, and all went seamlessly. Thanks to all that attended! Special thanks to the P2D2 team!
 
 The talk synopsis is:
 
@@ -9,6 +11,11 @@ The talk synopsis is:
 > However, the prospect of creating a performant aggregate function in C, along with a potential of being the long-term maintainer of a new function, can be a high barrier for many would-be contributors.
 >
 > But there’s great news! Not only does PGX help with creating, testing and deploying aggregates using Rust, it’s easy enough for me to fit the adventure of addressing one GitHub user’s call for help into 25 minutes.
+
+This repo describes the Rust demo extension which I used in the talk, which reports the timestamp at which the first element of a max aggregate occured.
+
+It was asked for by a Timescale user here: https://github.com/timescale/timescaledb/issues/3764
+
 
 ## Setup
 
