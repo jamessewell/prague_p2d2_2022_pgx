@@ -17,10 +17,13 @@ To use the code in this repo follow these steps:
 ```
 # Install the Rust toolset (if you don't already have it) 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 # Install cargo-pgx into cargo (the Rust package manager)
 cargo install cargo-pgx
+
 # Intialize our locall PGX managed PostgreSQL versions
 cargo pgx init
+
 # Clone this repo ready for use!
 git clone https://github.com/jamessewell/prague_p2d2_2022_pgx
 cd prague_p2d2_2022_pgx
