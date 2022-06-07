@@ -84,7 +84,7 @@ You will then see the correct tree has been made under the `./target/release/pra
 You can look at some basic benchmarking by running the following command (assuming you've compiled and installed the extension into PG14):
 
 ```
-/.pgx/14.3/pgx-install/bin/pgbench -t 100 -p 28814 -h 127.0.0.1 -r -n  -f pgbench.sql prague_p2d2_2022_pgx
+~/.pgx/14.3/pgx-install/bin/pgbench -t 100 -p 28814 -h 127.0.0.1 -r -n  -f pgbench.sql prague_p2d2_2022_pgx
 ```
 
 
