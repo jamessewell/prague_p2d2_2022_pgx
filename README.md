@@ -14,10 +14,19 @@ The talk synopsis is:
 
 To use the code in this repo follow these steps:
 
-1. Install the Rust toolset (if you don't already have it) with `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
-2. Install cargo pgx with `cargo install cargo-pgx --version 0.4.5`
-4. Intialize pgx with `cargo pgx init`
-3. Checkout the repo with `git clone xxx` and enter the directory
+```
+# Install the Rust toolset (if you don't already have it) 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# Install cargo-pgx into cargo (the Rust package manager)
+cargo install cargo-pgx
+# Intialize our locall PGX managed PostgreSQL versions
+cargo pgx init
+# Clone this repo ready for use!
+git clone https://github.com/jamessewell/prague_p2d2_2022_pgx
+cd prague_p2d2_2022_pgx
+```
+
+Now we are ready to use PGX!
 
 ## PGX Run
 
