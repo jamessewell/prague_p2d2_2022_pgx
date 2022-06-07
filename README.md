@@ -39,7 +39,7 @@ To compile our code for a specific version of Postgres and enter a `psql` shell 
 cargo pgx run --target pg14
 ```
 
-When you are dropped into the `psql` prompt you can run the following to create the extension, create some demo data, and finally show the extension working vs a PL/pgSQL version"
+When you are dropped into the `psql` prompt you can run the following to create the extension, create some demo data, and finally show the extension working vs a PL/pgSQL version (which was installed from that weather.sql file).
 
 ```
 CREATE EXTENSION prague_p2d2_2022_pgx;
