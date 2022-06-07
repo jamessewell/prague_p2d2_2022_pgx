@@ -1,0 +1,5 @@
+comment = 'prague_p2d2_2022_pgx:  Created by pgx'
+default_version = '@CARGO_VERSION@'
+module_pathname = '$libdir/prague_p2d2_2022_pgx'
+relocatable = false
+superuser = false
