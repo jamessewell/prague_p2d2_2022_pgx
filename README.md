@@ -33,10 +33,10 @@ Now we are ready to use PGX!
 
 ## PGX Run
 
-To compile our code for a specific version of Postgres and enter a `psql` shell with the extension ready to use you can run the following command:
+To compile our code for a specific version of Postgres and enter a `psql` shell with the extension ready to use (an compiled in release mode, not debug mode) you can run the following command:
 
 ```
-cargo pgx run --target pg14
+cargo pgx run --release pg14
 ```
 
 When you are dropped into the `psql` prompt you can run the following to create the extension, create some demo data, and finally show the extension working vs a PL/pgSQL version (which was installed from that weather.sql file).
@@ -45,8 +45,8 @@ When you are dropped into the `psql` prompt you can run the following to create 
 CREATE EXTENSION prague_p2d2_2022_pgx;
 \i ./sql/weather.sql
 \timing
-SELECT max_timed(instant, temperature) FROM weather;
-SELECT max_timed_pgx(instant, temperature) FROM weather;
+SELECT max_timed(instant, temperature) FROM weather_data;
+SELECT max_timed_pgx(instant, temperature) FROM weather_data;
 ```
 
 If you'd like you can run the `cargo pgx run` command again using `pg13` to drop into a PostgreSQL 13 shell.
