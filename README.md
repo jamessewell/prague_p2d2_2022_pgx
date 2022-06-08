@@ -2,7 +2,7 @@
 
 This repo hosts the demo code and slides from my talk at the Prague Postgres Developer Day 2022 (https://p2d2.cz/rocnik-2022/program).
 
-I had a great time speaking at this conference, it was my first in person conference talk, my first PostgreSQL community talk, and my first live-demo. Thankfully the demo gods shone, and all went seamlessly. Thanks to all that attended! Special thanks to the P2D2 team!
+I had a great time speaking at this conference, it was my first in person conference talk, my first PostgreSQL community talk, and my first live-demo on stage.  The demo gods shone, and all went seamlessly. Thanks to all that attended! Special thanks to the P2D2 team!
 
 The talk synopsis is:
 
